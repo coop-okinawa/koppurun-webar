@@ -1,17 +1,13 @@
-こっぷるん WebAR 3Dモデル V2（写真を参考にした試作品）
+こっぷるん 写真参考・質感強化版 v1（試作）
 
-同梱:
-- koppurun.glb : 3Dモデル（GLB形式）
-- build_koppurun.py : 再生成用Pythonコード（trimesh, numpy, pillowが必要）
-
-GitHub更新手順:
-1. 対象リポジトリのCodeを開く
-2. 既存の koppurun.glb を開き、右上の ... メニューから Delete file を選びコミット
-3. Add file > Upload files から新しい koppurun.glb をアップロードしコミット
-4. GitHub ActionsのPages公開完了を待ち、ブラウザを再読み込み（キャッシュを消す）
+内容:
+ koppurun.glb : GitHub Pages の既存ファイル差し替え用
+ koppurun_real.glb : 同じモデルの別名コピー
+ build_real.py : 再生成用 Python スクリプト（numpy, trimesh, pillow が必要）
 
 注意:
-- 公式キャラクターの利用許諾・デザイン監修を確認すること
-- 3D表示およびARのiOS/Android実機テストは未実施
-- 写真に映る背景や人物はモデル化していない
-- ロゴは近似表現。特に曲面へのフィットは未調整
+ - 写真を参考に手続き的に生成したモデルであり、フォトグラメトリや完全再現ではありません。
+ - 布らしい色ムラと粗い表面質感を付けていますが、実物と見分けがつかない品質ではありません。
+ - 実機ARでの動作、ロゴの曲面へのなじみ、葉っぱや縫い目の造形は未検証です。
+ - 既存GitHubリポジトリの koppurun.glb と入れ替えれば同じURLで確認できます。
+ - 公式キャラクターの権利・社外公開許可を確認してください。
